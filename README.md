@@ -1,8 +1,11 @@
-# Nizar-Home
+# Nizar-Home Final
 Website message untuk menampung pesan seperti kotak pos
 
 # Web
 http://nizarhome.rf.gd
+
+# Repo original atau dasar
+https://github.com/nusaniz/Nizar-Home
 
 # View
 * front page -> lebih bagus untuk smartphone
