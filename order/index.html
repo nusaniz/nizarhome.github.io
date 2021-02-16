@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            margin: 0;
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            max-swidth: 100%;
+            border: 1px solid;
+            justify-content: center;
+            display: flex;
+        }
+
+        form {
+            border: 1px solid;
+            margin: 0;
+        }
+
+        select {
+            /* margin: 1rem 0; */
+            /* display: block; */
+            /* margin: 1rem 0 0 0; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            text-transform: capitalize;
+            width: 50%;
+            border: 1px solid teal;
+        }
+
+        form select option.silakan {
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form">
+        <form action="">
+
+            <label for="perangkat">Perangkat yang digunakan</label>
+            <select name="perangkat" id="perangkat">
+                <option class="silakan" value="silakan dipilih" selected disabled>perangkat</option>
+                <option value="internet">internet</option>
+                <option value="wifi">wifi</option>
+                <option value="router">router</option>
+                <option value="internet">modem</option>
+            </select>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

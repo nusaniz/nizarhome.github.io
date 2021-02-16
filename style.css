@@ -1,0 +1,16 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container.header {
+    padding: 1.2rem;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.button {
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+}
